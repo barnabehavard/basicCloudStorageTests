@@ -19,4 +19,4 @@ On retourne alors sur la page précédente.
 
 Cliquer sur les 3 points à droite de notre utilisateur et choisir `Gérer les clés`, puis `Ajouter une clé` > `Créer une clé` au format JSON, et la télécharger.
 
-Déposer la clé dans le dossier sous le nom `gcloud-key.json`
+Déposer la clé à la racine du projet sous le nom `gcloud-key.json`
