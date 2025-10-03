@@ -8,7 +8,8 @@ const storage = new Storage({
 })
 
 
-
+// ATTENTION :
+// Pas de majuscules, espaces ou points dans le nom du bucket.
 const bucketName = 'testcodenetexpo'
 
 /* Décomenter les lignes suivantes pour créer le buket si il n'existe pas : */
