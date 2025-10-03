@@ -3,18 +3,7 @@
 ## 1. Installer Cloud Storage :
 `npm install @google-cloud/storage`
 
-## 2. Créer le bucket
-
-Se rendre sur : https://console.cloud.google.com/storage/overview;tab=overview
-
-Créer un bucket avec les propriétés suivantes :
-
-* Nom (doit etre unique parmis tous les Cloud Storage existants). Par ex : `CloudStorageCheckMatesTests`
-* Mettre les données en "Region" (moins cher), et par exemple, les mettre en France (west-9) ou Belgique (west1)
-* Choisir "Standard" comme classe (= plus cher par mois mais aucun cout pour récuperer ces fichiers, à l'inverse des 3 autres)
-* Ne pas toucher au reste
-
-## 3. Créer les accès
+## 2. Créer les accès
 
 Se rendre sur : https://console.cloud.google.com/iam-admin/iam
 
@@ -23,7 +12,7 @@ Cliquer (dans le menu à gauche) sur "Comptes de Services" puis "Créer un compt
 Mettre les propriétés suivantes :
 
 * Nom (par exemple: `Acces CheckMates Cloud Storage`)
-* Lui donner les permissions nécéssaires (Soit `Administrateur Storage` directement, soit `Utilisateur d'objet storage`)
+* Lui donner les permissions nécéssaires: `Administrateur Storage` (attention, il y en a d'autres qui ressemblent, qui ne sont pas celles dont nous avons besoin)
 * Ne pas toucher au reste et valider
 
 On retourne alors sur la page précédente.
